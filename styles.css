@@ -1,0 +1,18 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --carbon: hsl(0, 0%, 20%);
+  --silver: hsl(0, 0%, 93%);
+  --bluish: hsl(207, 40%, 47%);
+  --violet: hsl(263, 18%, 47%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
